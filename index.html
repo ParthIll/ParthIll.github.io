@@ -153,7 +153,7 @@
       <div>
         <p class="who">Applied Research Laboratories</p>
         <p class="what">ML Research Intern</p>
-        <p>Red-teamed agentic AI models for thought injection, which is a class of attack that goes after a model's reasoning instead of its prompt. I built a benchmark of 13,000 prompts across 10 attack categories, plus 115 more varied by persona and context, and traced how the injected content moved through attention and context handling. The work is written up as a paper, now under submission to a workshop.</p>
+        <p>Red-teamed agentic AI models for thought injection, which is a class of attack that goes after a model's reasoning instead of its prompt. I built the evaluation harness and the benchmark behind it — 13,000 prompts across 10 attack categories, plus 115 more varied by persona and context — and measured where leaked data actually surfaced, in the model's reasoning trace or in its final answer. The work is written up as a paper, now under submission to a workshop.</p>
       </div>
     </div>
 
@@ -217,7 +217,7 @@
     <div class="proj">
       <h3>Thought injection in agentic AI systems</h3>
       <p class="tech">Under submission — workshop paper</p>
-      <p>The paper out of my ARL internship. It treats thought injection as an attack on a model's reasoning rather than on its prompt, measures how agentic models hold up across 13,000 prompts in 10 attack categories, and follows how the injected content moves through attention and context handling. It's been submitted to a workshop — I'll put a link here if it gets in.</p>
+      <p>The paper out of my ARL internship. It treats thought injection as an attack on a model's reasoning rather than on its prompt, measures how much more often an attack lands when the same text is wrapped in the model's own thinking tags, and shows that stripping those tags doesn't remove the leak — it moves it into the reasoning channel, which most systems never show anyone. It's been submitted to a workshop — I'll put a link here if it gets in.</p>
     </div>
   </section>
 
